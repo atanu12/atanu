@@ -57,57 +57,7 @@ nav{
     transition: ease-in(0.5s);
 }
 
-/* social */
 
-/* .wrapper{
-	position: fixed;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.share{
-	width: 58px;
-	height: 58px;
-	position: relative;
-	cursor: pointer;
-	transition: all 0.2s linear;
-}
-
-.share .fa{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: #fff;
-    font-size: 25px;
-   
-}
-
-.share.facebook{
-    background: black;
-    border-bottom: 1px solid white;
-}
-
-.share.twitter{
-    background: black;
-    border-bottom: 1px solid white;
-}
-
-.share.reddit{
-    background: black;
-    border-bottom: 1px solid white;
-}
-
-.share.google{
-    background: black;
-    
-}
-
-
-
-.share:hover{
-	width: 70px;
-} */
 
 
 
@@ -194,6 +144,54 @@ nav{
 }
 
 
+/* social */
+
+.wrapper{
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.share{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
+.share .fa{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+    font-size: 25px;
+   
+}
+
+
+.share.facebook{
+    background: black;
+    border-bottom: 1px solid white;
+}
+
+.share.twitter{
+    background: black;
+    border-bottom: 1px solid white;
+}
+
+.share.reddit{
+    background: black;
+    
+}
+
+
+
+.share:hover{
+	width: 50px;
+}
+
 
 
 /* ====== footer ===== */
@@ -233,6 +231,14 @@ nav{
     }
     .about-text p{
         padding: 0 8%;
+       
+    }
+    .share{
+        width: 30px;
+        height: 40px;
+    }
+    .share .fa{  
+        font-size: 18px;
        
     }
 }
