@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
 *{
     margin: 0;
@@ -8,7 +8,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 /* body{
     background: url('https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=photography-of-macbook-half-opened-on-white-wooden-surface-633409.jpg&fm=jpg');
-    background-size: cover;
+    backgroud-size: cover;
    
 } */
 
@@ -330,7 +330,7 @@ nav{
     .title-intro{
         font-size: 10px;
     }
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
 *{
     margin: 0;
@@ -645,8 +645,6 @@ nav{
         font-size: 10px;
     }
 }
-
-
 @media(max-width:351px){
     .brand-logo{
         letter-spacing:2px;
@@ -660,5 +658,4 @@ nav{
     .title-intro{
         font-size: 10px;
     }
->>>>>>> 97a7bf461c5d5fea06439abdb437fe913adbf666
 }
